@@ -1,0 +1,16 @@
+                                      precision    recall  f1-score   support
+
+                    c0: Safe driving       0.93      0.25      0.39       386
+         c1: Texting with right hand       0.95      0.64      0.76       351
+c2: Talking on phone with right hand       0.74      0.81      0.77       401
+          c3: Texting with left hand       0.98      0.87      0.92       394
+ c4: Talking on phone with left hand       0.91      0.72      0.81       401
+             c5: Operating the radio       0.74      0.99      0.85       407
+                        c6: Drinking       0.83      0.74      0.78       417
+                 c7: Reaching behind       0.48      1.00      0.65       328
+                 c8: Hair and makeup       0.35      0.20      0.25       335
+            c9: Talking to passenger       0.33      0.51      0.40       348
+
+                            accuracy                           0.68      3768
+                           macro avg       0.72      0.67      0.66      3768
+                        weighted avg       0.74      0.68      0.67      3768

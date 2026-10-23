@@ -1,0 +1,17 @@
+# Tested with Python 3.10, Windows 11, PyTorch 2.0.1+cpu and NumPy 1.26.4.
+# For a fresh environment install the matching CPU wheel from https://pytorch.org/get-started/locally/ first.
+# Tested with Python 3.10, Windows 11, PyTorch 2.0.1+cpu and NumPy 1.26.4.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+numpy>=1.23,<2.0
+pandas>=1.5,<3.0
+Pillow>=9.5,<13
+scikit-learn>=1.2,<2.0
+matplotlib>=3.7,<4.0
+Flask>=3.0,<4.0
+Werkzeug>=3.0,<4.0
+pytest>=7.4,<9.0
+kaggle>=1.6,<2.0
+waitress>=3.0,<4.0; platform_system == "Windows"
+gunicorn>=21.2,<24; platform_system != "Windows"
