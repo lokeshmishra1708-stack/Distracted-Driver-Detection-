@@ -16,6 +16,7 @@ models/final/**
 outputs/figures/**
 !outputs/figures/*.png
 outputs/predictions/**
+outputs/reports/classification_report.txt
 outputs/reports/environment_report.md
 outputs/reports/*_history.json
 outputs/reports/*_history.csv
